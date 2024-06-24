@@ -27,7 +27,13 @@ super + d
 
 
 #####
+# Change language
+Alt_L + shift
+	sh $HOME/.config/bspwm/scripts/change_language.sh
 
+Shift_L + alt
+	sh $HOME/.config/bspwm/scripts/change_language.sh
+#####
 
 
 # Apps (browser, editor, filemanager)

@@ -29,5 +29,8 @@
 yay -S  gvfs
 # gvfs is for thunar
 ```
-6) Clone sxhkdrc file
+6) Clone repo to home folder
+7) Configure manually apps:
+- Vscode + git
+- qsynth add path to soundfonts
   

@@ -26,7 +26,7 @@
   ```
 - Utils:
 ```bash
-yay -S  gvfs
+yay -S  gvfs rar
 # gvfs is for thunar
 ```
 6) Clone repo to home folder

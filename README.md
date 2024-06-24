@@ -22,7 +22,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S thunar code qsynth telegram-desktop steam zoom 
+  yay -S thunar code qsynth telegram-desktop steam zoom micro
   ```
 - Utils:
 ```bash

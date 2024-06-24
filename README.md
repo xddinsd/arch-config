@@ -26,7 +26,7 @@
   ```
 - Utils:
 ```bash
-yay -S  gvfs rar
+yay -S  gvfs unrar pavucontrol zip unzip
 # gvfs is for thunar
 ```
 6) Clone repo to home folder

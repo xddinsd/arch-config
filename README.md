@@ -32,6 +32,7 @@ yay -S  gvfs unrar pavucontrol zip unzip
 6) Clone repo to home folder
 7) Configure manually apps:
 - Firefox
+- Pavucontrol
 - Telegram Desktop
 - Steam
 - Vscode + git

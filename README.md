@@ -31,6 +31,9 @@ yay -S  gvfs
 ```
 6) Clone repo to home folder
 7) Configure manually apps:
+- Firefox
+- Telegram Desktop
+- Steam
 - Vscode + git
-- qsynth add path ```$HOME/.config/soundfonts```
+- Qsynth add path ```$HOME/.config/soundfonts```
   

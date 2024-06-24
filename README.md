@@ -32,5 +32,5 @@ yay -S  gvfs
 6) Clone repo to home folder
 7) Configure manually apps:
 - Vscode + git
-- qsynth add path to soundfonts
+- qsynth add path ```$HOME/.config/soundfonts```
   

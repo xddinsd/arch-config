@@ -26,7 +26,8 @@
   ```
 - Utils:
 ```bash
-yay -S  
+yay -S  gvfs
+# gvfs is for thunar
 ```
-6) Clone sxkhsadspfgkf;d kRC file
+6) Clone sxhkdrc file
   

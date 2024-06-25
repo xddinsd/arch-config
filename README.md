@@ -2,7 +2,7 @@
 ### My personal command set to install my system from zero
 
 1) Get a livecd of arch
-2) Archinstall bspwm f2fs network-manager
+2) Archinstall bspwm f2fs network-manager multilib
 3) ```nmcli d wifi connect <wifi_name> password <password>```
 4) Install themes via [this config](https://github.com/gh0stzk/dotfiles/tree/master): 
   ```bash
@@ -36,5 +36,5 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Telegram Desktop
 - Steam
 - Vscode + git
-- Qsynth add path ```$HOME/.config/soundfonts```
+- Qsynth add path ```$HOME/.config/soundfonts```. 
   

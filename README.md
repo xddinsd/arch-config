@@ -2,7 +2,7 @@
 ### * And 16 more awesome themes, god bless the Author of a [RiceSelector](https://github.com/gh0stzk/dotfiles/tree/master)  
 ![Theme screenshot](./screenshot.png)
 
-### Installation
+## Installation
 1) **Get a livecd of arch**
 2) **Archinstall bspwm f2fs network-manager multilib**
 3) **```nmcli d wifi connect <wifi_name> password <password>```**
@@ -24,7 +24,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S micro code qsynth telegram-desktop steam zoom dissent-bin
+  yay -S micro code qsynth telegram-desktop steam zoom discord
   ```
 - Utils:
 ```bash
@@ -44,9 +44,13 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Vscode + git
 - Qsynth add path ```$HOME/.config/soundfonts```
 - Add sound files to ~/Music/ in case you want to use the default polybar music player 
-- [Dissent](https://github.com/diamondburned/dissent)
+- Discord: Add the following lines:
+```JSON
+{"SKIP_HOST_UPDATE": true}
+```
+  To this file: ```~/.config/discord/settings.json```    
      
-### Known errors:
+## Known errors:
 - After installations hotkeys may not work until reboot
 - **Change_launguage need to be opened manually once to wake up the Xmodmap.** Alternative: ```xmodmap ~/.config/bspwm/scripts/change_launguage.sh```
 - Firefox theme is not applied (bug in the original repo, now it's WIP)

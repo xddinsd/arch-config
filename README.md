@@ -44,11 +44,10 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Vscode + git
 - Qsynth add path ```$HOME/.config/soundfonts```
 - Add sound files to ~/Music/ in case you want to use the default polybar music player 
-- Discord: Add the following lines:
+- Discord: Create file ```~/.config/discord/settings.json```. Add to it:
 ```JSON
 {"SKIP_HOST_UPDATE": true}
 ```
-  To this file: ```~/.config/discord/settings.json```    
      
 ## Known errors:
 - After installations hotkeys may not work until reboot

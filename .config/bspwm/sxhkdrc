@@ -44,7 +44,7 @@ super + shift + {b,c,n}
 #|||----- System Keybindings -----|||#
 
 # Theme Selector
-alt + @space
+ctrl + super + alt + w
 	RiceSelector
 
 
@@ -66,15 +66,12 @@ ctrl + alt + {plus,minus,equal}
 	picom-trans {-c -o +3,-c -o -1,-c -d}
 
 # Random wallpaper
-super + alt + w
+shift + super + w
 	WallSelect
 
-# Screenshot Now
-Print
-	ScreenShoTer --now
 
 # Screenshot Select
-ctrl + Print
+Print
 	ScreenShoTer --sel
 
 # Screenshot in 10s

@@ -74,13 +74,13 @@ shift + super + w
 Print
 	ScreenShoTer --sel
 
-# Screenshot in 10s
+# All screen screenshot
+ctrl + Print 
+	ScreenShoTer --now
 alt + Print
-	ScreenShoTer --in10
-
-# Screenshot active window
+	ScreenShoTer --now
 shift + Print
-	ScreenShoTer --active
+	ScreenShoTer --now
 
 # Manage brightness
 XF86MonBrightness{Up,Down}

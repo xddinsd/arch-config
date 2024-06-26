@@ -24,7 +24,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S micro code qsynth telegram-desktop steam zoom dissent
+  yay -S micro code qsynth telegram-desktop steam zoom dissent-bin
   ```
 - Utils:
 ```bash
@@ -44,13 +44,8 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Vscode + git
 - Qsynth add path ```$HOME/.config/soundfonts```
 - Add sound files to ~/Music/ in case you want to use the default polybar music player 
-- Discord:
-  Add line to ```~/.config/discord/settings.json```:
-  
-```json
-  "SKIP_HOST_UPDATE": true
-```
-
+- [Dissent](https://github.com/diamondburned/dissent)
+     
 ### Known errors:
 - After installations hotkeys may not work until reboot
 - **Change_launguage need to be opened manually once to wake up the Xmodmap.** Alternative: ```xmodmap ~/.config/bspwm/scripts/change_launguage.sh```

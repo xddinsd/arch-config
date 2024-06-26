@@ -1,6 +1,7 @@
 # My personal command set to install system from scratch
+### * And 16 more awesome themes, god bless the Author of RiceSelector(see step 4)   
 ![Theme screenshot](./screenshot.png)
-##### And many more awesome themes, god bless the Author of RiceSelector(see step 4)   
+
 ### Installation
 1) Get a livecd of arch
 2) Archinstall bspwm f2fs network-manager multilib

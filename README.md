@@ -42,7 +42,8 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Telegram Desktop
 - Steam
 - Vscode + git
-- Qsynth add path ```$HOME/.config/soundfonts```. 
+- Qsynth add path ```$HOME/.config/soundfonts```
+- Add sound files to ~/Music/ in case you want to use the default polybar music player 
 - Discord:
   Add line to ```~/.config/discord/settings.json```:
   

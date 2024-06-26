@@ -1,6 +1,7 @@
-# arch-config
-### My personal command set to install my system from zero
-
+# My personal command set to install system from scratch
+![Theme screenshot](./screenshot.png)
+##### And many more awesome themes, god bless the Author of RiceSelector(see step 4)   
+### Installation
 1) Get a livecd of arch
 2) Archinstall bspwm f2fs network-manager multilib
 3) ```nmcli d wifi connect <wifi_name> password <password>```
@@ -37,4 +38,5 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Steam
 - Vscode + git
 - Qsynth add path ```$HOME/.config/soundfonts```. 
-  
+
+### Stay free to fork, change package list and files in repo.

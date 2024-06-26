@@ -1,5 +1,5 @@
 # My personal command set to install system from scratch
-### * And 16 more awesome themes, god bless the Author of [RiceSelector](https://github.com/gh0stzk/dotfiles/tree/master)  
+### * And 16 more awesome themes, god bless the Author of a [RiceSelector](https://github.com/gh0stzk/dotfiles/tree/master)  
 ![Theme screenshot](./screenshot.png)
 
 ### Installation

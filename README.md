@@ -24,7 +24,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S thunar code qsynth telegram-desktop steam zoom micro
+  yay -S code qsynth telegram-desktop steam zoom micro
   ```
 - Utils:
 ```bash
@@ -32,6 +32,11 @@ yay -S  gvfs unrar pavucontrol zip unzip
 # gvfs is for thunar
 ```
 6) Clone repo to home folder
+##### What's happening on step 6:
+- Hotkeys are honed for maximum performance to control your computer almost without a mouse(sxhkdrc)
+- Default editor swapped to Code-OSS(OpenApps)
+- Add script to swap keyboard layout to ru_RU(change_launguage.sh, it's linked to sxhkdrc via Shift+Alt hotkey)
+  
 7) Configure manually apps:
 - Firefox
 - Pavucontrol
@@ -40,18 +45,15 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Vscode + git
 - Qsynth add path ```$HOME/.config/soundfonts```. 
 
-##### What's happening on step 6:
-- Hotkeys are honed for maximum productivity w/o use of mouse (sxhkdrc)
-- Default editor changed to VsCode(OpenApps)
-- Add script to swap keyboard layout to ru_RU(change_launguage.sh and it's linked to sxhkdrc)
+
 
 ### Known errors:
 - After installations hotkeys may not work until reboot
 - **Change_launguage need to be opened manually once to wake up the Xmodmap.** Alternative: ```xmodmap ~/.config/bspwm/scripts/change_launguage.sh```
-- Firefox theme are not applied (bug in the original repo, for now it's WIP)
+- Firefox theme is not applied (bug in the original repo, now it's WIP)
 - Thunar can't open files (This happens due to the lack of session manager, which is a default state for BSPWM).    
   Solutions:
   1) Add LXSession to the original config (makes your system less integral and harder to configure properly)
   2) Use built-in vim-like file manager ranger. **Maybe there are others session-managers independent apps, write please in issues if you know one.**
 
-### Feel free to fork, change package list and files in repo.
+### Feel free to fork, change package list and configs in repo.

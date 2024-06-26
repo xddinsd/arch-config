@@ -24,7 +24,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S micro code qsynth telegram-desktop steam zoom discord
+  yay -S micro code qsynth telegram-desktop steam zoom dissent
   ```
 - Utils:
 ```bash

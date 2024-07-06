@@ -34,7 +34,7 @@ yay -S  gvfs unrar pavucontrol zip unzip
 6) **Clone repo to home folder. This happens:**
 - Hotkeys are honed for maximum performance to control your computer almost without a mouse(sxhkdrc)
 - Default editor swapped to Code-OSS(OpenApps)
-- Add script to swap keyboard layout to ru_RU(change_launguage.sh, it's linked to sxhkdrc via Shift+Alt hotkey)
+- Add script to swap keyboard layout to ru_RU(change_launguage.sh, it's linked to sxhkdrc via Shift+Alt hotkey and to bspwmrc for autostart)
   
 7) **Configure manually apps:**
 - Firefox
@@ -51,7 +51,6 @@ yay -S  gvfs unrar pavucontrol zip unzip
      
 ## Known errors:
 - After installations hotkeys may not work until reboot
-- **Change_launguage need to be opened manually once to wake up the Xmodmap.** Alternative: ```xmodmap ~/.config/bspwm/scripts/change_launguage.sh```
 - Firefox theme is not applied (bug in the original repo, now it's WIP)
 - Thunar can't open files (This happens due to the lack of session manager, which is a default state for BSPWM).    
   Solutions:

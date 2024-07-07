@@ -31,6 +31,10 @@
 yay -S  gvfs unrar pavucontrol zip unzip
 # gvfs is for thunar
 ```
+- Dev packages
+```bash
+yay -S python-pip
+```
 6) **Clone repo to home folder. This happens:**
 - Hotkeys are honed for maximum performance to control your computer almost without a mouse(sxhkdrc)
 - Default editor swapped to Code-OSS(OpenApps)
@@ -41,7 +45,11 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Pavucontrol
 - Telegram Desktop
 - Steam
-- Vscode + git
+- Vscode + git + disable nvim linter
+```bash
+cd $HOME/.config/nvim/lua/plugins
+sudo rm none-ls.lua lsp-config
+```
 - Qsynth add path ```$HOME/.config/soundfonts```
 - Add sound files to ~/Music/ in case you want to use the default polybar music player 
 - Discord: Create file ```~/.config/discord/settings.json```. Add to it:

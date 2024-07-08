@@ -24,7 +24,7 @@
   ```    
 - Apps:
   ```bash
-  yay -S micro code qsynth telegram-desktop steam zoom discord
+  yay -S micro code qsynth telegram-desktop zoom discord
   ```
 - Utils:
 ```bash
@@ -34,6 +34,12 @@ yay -S  gvfs unrar pavucontrol zip unzip
 - Dev packages
 ```bash
 yay -S python-pip
+```
+- Games
+```bash
+yay -S game-devices-udev flatpak
+flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak --user install flathub com.valvesoftware.Steam
 ```
 6) **Clone repo to home folder. This happens:**
 - Hotkeys are honed for maximum performance to control your computer almost without a mouse(sxhkdrc)

@@ -50,7 +50,7 @@ flatpak --user install flathub com.valvesoftware.Steam
 - Firefox
 - Pavucontrol
 - Telegram Desktop
-- Steam
+- Steam (turn off shaders pre-calculation on nvidia535+vulkan)
 - Vscode + git + disable nvim linter
 ```bash
 cd $HOME/.config/nvim/lua/plugins

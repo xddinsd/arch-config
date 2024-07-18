@@ -117,7 +117,7 @@ super + m
 
 # Change focus to next window, including floating window
 alt + {_,shift + }Tab
-    bspc node -f {next.local,prev.local}
+    bspc node -f {next.local.!hidden.window,prev.local.!hidden.window}
 
 # Change focus of the Node or Swap Nodes
 ctrl + super + {Left,Down,Up,Right}
